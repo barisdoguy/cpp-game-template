@@ -1,0 +1,17 @@
+# Build output
+/build/
+/out/
+/cmake-build-*/
+
+# Tooling
+/.cache/
+compile_commands.json
+CMakeUserPresets.json
+.vs/
+.idea/
+*.swp
+.DS_Store
+
+# Runtime output
+imgui.ini
+/screenshot*.png
