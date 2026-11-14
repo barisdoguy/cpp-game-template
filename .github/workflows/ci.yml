@@ -30,7 +30,7 @@ jobs:
           - { name: Linux GCC, os: ubuntu-24.04, cc: gcc, cxx: g++ }
           - { name: Linux Clang, os: ubuntu-24.04, cc: clang, cxx: clang++ }
           - { name: Windows MSVC, os: windows-2022 }
-          - { name: macOS Clang, os: macos-14 }
+          - { name: macOS Clang, os: macos-latest }
     steps:
       - uses: actions/checkout@v4
 
